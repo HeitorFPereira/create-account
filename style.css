@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    background-color: #93A8AC;
+    font-family: "Madimi One", sans-serif;
+    margin: 0;
+}
+
+body > h1{
+    margin: 0;
+}
+
+body > a{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius:0px 0px 10px 10px ;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+
+body > a:hover{
+    text-decoration: underline;
+}
+
+.principal1{
+    width: 400px;
+    height: 310px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 23px rgba(0, 0, 0, 0.21);
+}
+
+.header{
+    width: 400px;
+    height: 40px;
+    background-color: #4C5760;
+}
+
+.header > h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#txt1{
+    height: 30px;
+    width: 370px;
+    border-color: #66635B;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#txt2{
+    height: 30px;
+    width: 370px;
+    border-color: #66635B;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#txt3{
+    height: 30px;
+    width: 370px;
+    border-color: #66635B;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#txt4{
+    height: 30px;
+    width: 370px;
+    border-color: #66635B;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btn1{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #66635B;
+    font-family:"Madimi One", sans-serif ;
+    color: white;
+    width: 379px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    border: none;
+    transition: .3s;
+}
+
+#btn1:hover{
+    background-color: #52504a;
+    transition: .3s;
+}
+
+#erro{
+    color: red;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+
+
+
+
